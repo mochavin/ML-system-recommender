@@ -90,22 +90,22 @@ Dalam proyek ini, penulis hanya menggunakan 2 file dataset, yaitu:
 | 1.5    | 1791  |
 | 0.5    | 1370  |
 
-![Distribusi rating](./images/rating-distribution.png)
+![Distribusi rating](https://raw.githubusercontent.com/mochavin/ML-system-recommender/main/images/rating-distribution.png)
 Terlihat sebaran ratings kelipatan 0.5 dengan rating terendah 0.5 dan rating tertinggi 5.0 dan rating user terbanyak adalah 4.0.
 
 #### Distribusi Tahun Rilis
 
-![Tahun Rilis](./images/tahun-rilis.png)
+![Tahun Rilis](https://raw.githubusercontent.com/mochavin/ML-system-recommender/main/images/tahun-rilis.png)
 Berdasarkan grafik yang disajikan, dapat diamati bahwa rata-rata tahun rilis film berada dalam rentang 1990 hingga 2000-an ke atas. Distribusi terbanyak terjadi di atas tahun 2000, di mana jumlah film yang dirilis cenderung mengalami peningkatan yang signifikan seiring berjalannya waktu.
 
 #### Distribusi Genre
 
-![Distribusi Genre](./images/genre.png)
+![Distribusi Genre](https://raw.githubusercontent.com/mochavin/ML-system-recommender/main//images/genre.png)
 Dari gambar yang ditampilkan, dapat dilihat bahwa terdapat 20 kategori atau genre dalam dataset ini. Genre yang paling banyak muncul adalah **Drama**, diikuti oleh genre **Comedy**. Selain itu, terdapat beberapa film yang tidak memiliki genre yang terdaftar, ditandai dengan keterangan **no genres listed**.
 
 #### Film yang Memiliki Paling Banyak Rating
 
-![Frekuensi Rating Film](./images/frekuensi-rating-film.png)
+![Frekuensi Rating Film](https://raw.githubusercontent.com/mochavin/ML-system-recommender/main/images/frekuensi-rating-film.png)
 Terlihat bahwa film yang paling banyak dirating adalah **Forrest Gump(1994)** dengan lebih dari 300 rating.
 
 # Data Preparation
@@ -145,7 +145,8 @@ Langkah berikutnya melibatkan penggunaan _`argpartition`_ untuk mengambil k nila
 #### Hasil uji Content Based Filtering
 
 Berikut _sample_ untuk menguji hasil model _Content Based Filtering_
-![sample cosine similarity](./images/sample-cos.png)
+
+![sample cosine similarity](https://raw.githubusercontent.com/mochavin/ML-system-recommender/main/images/sample-cos.png)
 
 _Sample_ yang diuji adalah **Flint (2017)** dengan genre **Drama**
 
@@ -238,12 +239,12 @@ Kedua metrik ini sering digunakan bersama karena mereka memberikan perspektif ya
 
 ##### MAE
 
-![MAE](./images/mae.png)
+![MAE](https://raw.githubusercontent.com/mochavin/ML-system-recommender/main/images/mae.png)
 metriks MAE konvergen di sekitar 0.1300 untuk training dan 0.14250 untuk validasi
 
 ##### RMSE
 
-![RMSE](./images/rmse.png)
+![RMSE](https://raw.githubusercontent.com/mochavin/ML-system-recommender/main/images/rmse.png)
 metriks RMSE konvergen di sekitar 0.1700 untuk training dan 0.1850 untuk validasi
 
 Dalam 16 epoch metriks MAE dan RMSE hasilnya cukup memuaskan dengan tingkat error yang relatif kecil. Dapat disimpulkan bahwa tingkat error dari model ini di bawah 20%.
